@@ -1,3 +1,0 @@
-{{- if .Src -}}
-  <img src="{{ .Src | absURL }}" alt="{{ .Alt | default "Image" }}" class="{{ .Class | default "img-fluid" }}" {{ if .Width }}width="{{ .Width }}"{{ end }} {{ if .Height }}height="{{ .Height }}"{{ end }}>
-{{- end -}}
